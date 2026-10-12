@@ -24,4 +24,4 @@ This is a prevention success at the endpoint layer but a visibility gap at the S
 
 ## Improvement
 Add the Defender Operational channel to the agent's `ossec.conf` so blocked attempts (Event IDs 1116/1117) generate alerts. This was deliberately left out of scope for v1 and is on the roadmap.
-Evidence: `evidence/T1105-defender-1117.png`
+![Defender event 1117](../evidence/T1105-defender-1117.png)

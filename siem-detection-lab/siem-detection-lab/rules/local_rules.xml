@@ -1,0 +1,22 @@
+<!-- /var/ossec/etc/rules/local_rules.xml on the Wazuh manager -->
+<group name="local,syslog,">
+
+<rule id="100001" level="10">
+  <if_group>sysmon_event1</if_group>
+  <field name="win.eventdata.image">schtasks.exe</field>
+  <description>Suspicious scheduled task creation detected via schtasks.exe</description>
+  <mitre>
+    <id>T1053.005</id>
+  </mitre>
+</rule>
+
+<rule id="100002" level="8">
+  <if_group>sysmon_event1</if_group>
+  <field name="win.eventdata.image">rundll32.exe</field>
+  <description>Rundll32.exe execution detected (potential LOLBin abuse)</description>
+  <mitre>
+    <id>T1218.011</id>
+  </mitre>
+</rule>
+
+</group>

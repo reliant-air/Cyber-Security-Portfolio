@@ -14,6 +14,7 @@ A hands-on detection engineering lab built in VirtualBox. I simulated four commo
 | **Key finding** | Wazuh only indexes events that match a rule, so two real techniques produced no alert until I wrote custom detections |
 
 ## Architecture
+   ![Lab architecture](architecture/architecture.png)
 
 See [architecture/lab-architecture.md](architecture/lab-architecture.md).
 

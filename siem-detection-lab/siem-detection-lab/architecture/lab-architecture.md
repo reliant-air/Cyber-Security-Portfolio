@@ -1,4 +1,5 @@
 # Lab Architecture
+![Lab architecture](architecture.png)
 
 ## Hosts
 

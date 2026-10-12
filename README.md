@@ -1,6 +1,7 @@
-Cyber Security Portfolio
-Hi, I'm Sam Byrne. I'm building hands-on security skills through home-lab projects,
-focused on detection engineering and SOC analysis.
+# Cyber Security Portfolio
+
+Hi, I'm Sam Byrne. I'm building hands-on security skills through home-lab
+projects, focused on detection engineering and SOC analysis.
 
 ## Projects
 
